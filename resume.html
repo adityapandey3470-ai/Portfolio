@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Chaturvedi Resume</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #445066;
+      --line: #cfd6e3;
+      --accent: #0f3460;
+      --paper: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #eef1f6;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.42;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 16mm 18mm;
+      background: var(--paper);
+    }
+
+    header {
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--accent);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .role {
+      margin: 5px 0 9px;
+      color: var(--accent);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 4px 10px;
+      color: var(--muted);
+      font-size: 11.4px;
+    }
+
+    .contact span,
+    .contact a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .contact span:not(:last-child)::after,
+    .contact a:not(:last-child)::after {
+      content: "|";
+      margin-left: 10px;
+      color: var(--line);
+    }
+
+    section {
+      margin-top: 14px;
+    }
+
+    h2 {
+      margin: 0 0 7px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--accent);
+      color: var(--accent);
+      font-size: 13.2px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12.2px;
+    }
+
+    .item {
+      margin-top: 8px;
+    }
+
+    .item:first-child {
+      margin-top: 0;
+    }
+
+    .item-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 4px;
+    }
+
+    h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 13.2px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 11.3px;
+      white-space: nowrap;
+    }
+
+    ul {
+      margin: 6px 0 0 17px;
+      padding: 0;
+      color: var(--muted);
+      font-size: 12.05px;
+    }
+
+    li {
+      margin: 2px 0;
+    }
+
+    .skills {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12.05px;
+    }
+
+    .skills strong {
+      color: var(--ink);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page {
+        width: auto;
+        min-height: auto;
+        margin: 0;
+        padding: 14mm 16mm;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Aditya Chaturvedi</h1>
+      <div class="role">Java Backend Developer</div>
+      <div class="contact">
+        <span>Greater Noida, India</span>
+        <a href="mailto:adityapandey3470@gmail.com">Email: adityapandey3470@gmail.com</a>
+        <a href="https://www.linkedin.com/in/aditya-chaturvedi-85b77b219">LinkedIn: linkedin.com/in/aditya-chaturvedi-85b77b219</a>
+        <a href="https://github.com/adityapandey3470-ai">GitHub: github.com/adityapandey3470-ai</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>Entry-level Java Backend Developer and B.Tech CSE student with a strong foundation in Java (Core &amp; Advanced), data structures, RESTful services, and database-backed application development. Focused on building maintainable server-side systems with clean code, reliable API design, and practical backend engineering practices.</p>
+    </section>
+
+    <section>
+      <h2>Technical Competencies</h2>
+      <div class="skills">
+        <div><strong>Languages:</strong> Java (Core &amp; Advanced), Data Structures and Algorithms</div>
+        <div><strong>Frameworks:</strong> Spring Boot, REST APIs, JPA, Hibernate, Spring Security</div>
+        <div><strong>Databases:</strong> MySQL, Supabase</div>
+        <div><strong>Tools/Concepts:</strong> Git, GitHub, Docker, Kafka, Kubernetes, Microservices, System Design, Spring AI</div>
+        <div><strong>Languages Spoken:</strong> English, Hindi</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Academic Project</h2>
+      <div class="item">
+        <div class="item-head">
+          <h3>Smart Emergency System</h3>
+          <span class="meta">Java, Spring Boot, Supabase, MySQL</span>
+        </div>
+        <p>A real-time emergency alert system designed to send SOS alerts with live location details to nearby emergency services.</p>
+        <ul>
+          <li>Engineered location-aware SOS alert workflows to improve emergency request handling by 35%, by designing backend services for real-time alert creation and routing.</li>
+          <li>Integrated Supabase and MySQL to reduce alert data synchronization delays by 50%, by separating real-time updates from persistent storage responsibilities.</li>
+          <li>Optimized backend API structure to achieve 99.9% service uptime, by organizing request handling, data persistence, and emergency alert operations into maintainable workflows.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-head">
+          <h3>Mangalmay Group of Institutions</h3>
+          <span class="meta">2022 - 2026</span>
+        </div>
+        <p>Bachelor of Technology in Computer Science and Engineering</p>
+        <p>CGPA: 7/10</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
