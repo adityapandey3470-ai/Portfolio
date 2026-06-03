@@ -27,7 +27,7 @@ The portfolio is built to present my work in a clean and simple way. It includes
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/adityapandey3470-ai/portfolio.git
 ```
 
 Open the project folder:
@@ -81,9 +81,9 @@ portfolio/
 
 Add your contact links here:
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
-- Email: your-email@example.com
+- GitHub: https://github.com/adityapandey3470-ai
+- LinkedIn: https://www.linkedin.com/in/aditya-chaturvedi-85b77b219
+- Email: adityapandey3470@gmail.com
 
 ## License
 
