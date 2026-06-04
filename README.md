@@ -56,9 +56,9 @@ npm run dev
 
 ## Contact
 
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/adityapandey3470-ai
 - LinkedIn: https://www.linkedin.com/in/aditya-chaturvedi-85b77b219
-- Email: your-email@example.com
+- Email: adityapandey3470@gmail.com
 
 ## License
 
