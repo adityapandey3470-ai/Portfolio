@@ -2,6 +2,12 @@
 
 This is my personal portfolio website where I showcase my projects, skills, and contact details.
 
+## Live Demo
+
+View the live portfolio here:
+
+https://portfolio-qggivyy3u-aditya-portfolio1.vercel.app
+
 ## About
 
 The portfolio is built to present my work in a clean and simple way. It includes sections for my introduction, technical skills, featured projects, and ways to connect with me.
@@ -20,14 +26,12 @@ The portfolio is built to present my work in a clean and simple way. It includes
 - CSS
 - JavaScript
 
-> If this project uses React, Vite, Next.js, or another framework, update this section with the correct stack.
-
 ## Getting Started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/adityapandey3470-ai/portfolio.git
+git clone https://github.com/your-username/portfolio.git
 ```
 
 Open the project folder:
@@ -50,40 +54,11 @@ Run the development server:
 npm run dev
 ```
 
-## Deployment
-
-You can deploy this portfolio using:
-
-- Vercel
-- Netlify
-- GitHub Pages
-
-For Vercel:
-
-1. Push this project to GitHub.
-2. Go to [Vercel](https://vercel.com/).
-3. Import the GitHub repository.
-4. Click **Deploy**.
-
-## Folder Structure
-
-```text
-portfolio/
-├── index.html
-├── src/
-├── assets/
-└── README.md
-```
-
-> Update this structure if your project files are organized differently.
-
 ## Contact
 
-Add your contact links here:
-
-- GitHub: https://github.com/adityapandey3470-ai
+- GitHub: https://github.com/your-username
 - LinkedIn: https://www.linkedin.com/in/aditya-chaturvedi-85b77b219
-- Email: adityapandey3470@gmail.com
+- Email: your-email@example.com
 
 ## License
 
