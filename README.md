@@ -6,7 +6,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 
 View the live portfolio here:
 
-https://portfolio-qggivyy3u-aditya-portfolio1.vercel.app
+https://portfolio-p6t2pzhcw-aditya-portfolio1.vercel.app
 
 ## About
 
